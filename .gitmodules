@@ -1,0 +1,3 @@
+[submodule "Assets/ME.BECS"]
+	path = Assets/ME.BECS
+	url = https://github.com/chromealex/ME.BECS
