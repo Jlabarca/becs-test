@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85c23d484dd87431ab96b0d060a518f1, type: 3}
+  m_Name: UnitConfig
+  m_EditorClassIdentifier: 
+  baseConfig: {fileID: 0}
+  data:
+    components:
+    - rid: 8169388210561745091
+    - rid: 8169388210561745097
+    masks:
+    - mask: 0000000000
+    - mask: 0000
+  sharedData:
+    components: []
+    masks: []
+  staticData:
+    components:
+    - rid: 8169388210561745092
+    masks:
+    - mask: 00
+  dataInitialize:
+    items:
+    - type: 2
+      index: 0
+  aspects:
+    components: []
+    masks: []
+  collectionsData:
+    nextId: 0
+    items: []
+  maskable: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 8169388210561745091
+      type: {class: NavAgentComponent, ns: ME.BECS.Units, asm: ME.BECS.Units}
+      data:
+        maxSpeed:
+          rawValue: 1084227584
+        accelerationSpeed:
+          rawValue: 1092616192
+        decelerationSpeed:
+          rawValue: 1092616192
+        rotationSpeed:
+          rawValue: 1090519040
+        sightRange:
+          rangeSqr:
+            rawValue: 1103626240
+          minRangeSqr:
+            rawValue: 0
+          sector:
+            rawValue: 1135869952
+    - rid: 8169388210561745092
+      type: {class: InstantiateViewComponent, ns: ME.BECS.Views, asm: ME.BECS.Views}
+      data:
+        view:
+          viewSource:
+            providerId: 1
+            prefabId: 0
+    - rid: 8169388210561745097
+      type: {class: UnitHealthComponent, ns: ME.BECS.Units, asm: ME.BECS.Units}
+      data:
+        healthMax: 100
+        health: 100

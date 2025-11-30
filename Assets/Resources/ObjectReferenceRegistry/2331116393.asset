@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 101b89b2ee194690b02409b252ae387a, type: 3}
+  m_Name: 2331116393
+  m_EditorClassIdentifier: ME.BECS::ME.BECS.ObjectReferenceRegistryItem
+  data:
+    source: {fileID: 759028375215822307, guid: 16dd5f45d95da41d2ae8e93176998dd3, type: 3}
+    sourceReference:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    isGameObject: 1
+    sourceType: ME.BECS.Views.DefaultView, ME.BECS.Views, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    sourceId: 2331116393
+    customData:
+      rid: 1410756388506304591
+  references:
+    version: 2
+    RefIds:
+    - rid: 1410756388506304591
+      type: {class: ViewObjectItemData, ns: ME.BECS.Views, asm: ME.BECS.Views}
+      data:
+        info:
+          prefabId: 0
+          typeInfo:
+            flags: 0
+            cullingType: 0
+          sceneSource:
+            value: 0
+          isLoaded:
+            value: 0
+          flags: 0

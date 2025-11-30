@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85c23d484dd87431ab96b0d060a518f1, type: 3}
+  m_Name: SelectionRectView
+  m_EditorClassIdentifier: 
+  baseConfig: {fileID: 0}
+  data:
+    components:
+    - rid: 7199769598698717362
+    masks:
+    - mask: 00
+  sharedData:
+    components: []
+    masks: []
+  staticData:
+    components:
+    - rid: 7199769598698717360
+    masks:
+    - mask: 00
+  dataInitialize:
+    items:
+    - type: 2
+      index: 0
+  aspects:
+    components:
+    - rid: 7199769598698717364
+    masks:
+    - mask: 
+    - mask: 00
+    - mask: 00
+    - mask: 00
+    - mask: 00
+  collectionsData:
+    nextId: 0
+    items: []
+  maskable: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 7199769598698717360
+      type: {class: InstantiateViewComponent, ns: ME.BECS.Views, asm: ME.BECS.Views}
+      data:
+        view:
+          viewSource:
+            providerId: 1
+            prefabId: 0
+    - rid: 7199769598698717362
+      type: {class: LocalRotationComponent, ns: ME.BECS.Transforms, asm: ME.BECS.Transforms}
+      data:
+        value:
+          value:
+            x:
+              rawValue: 1060439283
+            y:
+              rawValue: 0
+            z:
+              rawValue: 0
+            w:
+              rawValue: 1060439283
+    - rid: 7199769598698717364
+      type: {class: TransformAspect, ns: ME.BECS.Transforms, asm: ME.BECS.Transforms}
+      data: 

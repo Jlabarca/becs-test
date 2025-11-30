@@ -1,0 +1,28 @@
+{
+    "name": "Volt",
+    "rootNamespace": "",
+    "references": [
+        "ME.BECS",
+        "ME.BECS.Features",
+"Unity.Collections",
+"Unity.Burst",
+"ME.BECS.Players",
+"ME.BECS.Trees",
+"ME.BECS.Pathfinding",
+"ME.BECS.Commands",
+"ME.BECS.Units",
+"ME.BECS.Attack",
+"ME.BECS.Transforms",
+"ME.BECS.Views",
+"ME.BECS.Network"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
